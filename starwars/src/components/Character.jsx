@@ -18,7 +18,7 @@ export default function Character({char}) {
             </div>
 
             <div>
-                <p>Appearances</p>
+                <p>Appearances:</p>
                 <Films
                 films={char.films}/>
             </div>

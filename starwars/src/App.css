@@ -17,5 +17,19 @@
   background-color:white;
   color:black;
   width:22%;
+  min-width: 327px;
   margin-top:3rem;
+  padding:3rem;
+}
+
+h1 {
+  color:brown;
+}
+
+h2 {
+  color: brown;
+}
+
+p, a, li {
+  text-align: start;
 }

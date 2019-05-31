@@ -99,7 +99,7 @@ Your finished project must include all of the following requirements:
 
 - [x] A list of Star Wars Characters rendered to the screen.
 - [x] You must have at least one list element for each star wars character in the data set.
-- [ ] The list elements must all be minimally styled. (Don't rely on browser default styles.)
+- [x] The list elements must all be minimally styled. (Don't rely on browser default styles.)
 
 Required best practices:
 
@@ -107,7 +107,7 @@ Required best practices:
 - [x] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
 - [x] Consistent quotation usage.
 - [x] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
+- [x] Schedule time to review, refine and reassess your work.
 
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
