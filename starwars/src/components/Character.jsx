@@ -4,7 +4,7 @@ import Films from './Films';
 export default function Character({char}) {
 
     return(
-        <div key={char.created}>
+        <div key={char.created} className="character">
             <h1>{char.name}</h1>
             <div>
                 <p>Gender: {char.gender}</p>

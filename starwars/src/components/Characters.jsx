@@ -3,7 +3,7 @@ import Character from './Character';
 
 export default function StarWarsChars({starwarsChars}){
     return(
-        <div>
+        <div className="characters">
             {starwarsChars.map(char => (
                 <Character
                 char={char}
