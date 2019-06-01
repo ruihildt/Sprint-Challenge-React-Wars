@@ -1,11 +1,35 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import StarWarsChars from './components/Characters';
+
+// const initialState = {
+//   starwarsChars: [{
+//       birth_year: '',
+//       created: '',
+//       edited: '',
+//       eye_color: '',
+//       films: [],
+//       gender: '',
+//       hair_color: '',
+//       height: '',
+//       homeworld: {},
+//       mass: '',
+//       name: '',
+//       skin_color: '',
+//       species: [],
+//       starships: [],
+//       url: '',
+//       vehicles: [],
+//     }]
+// }
+
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      starwarsChars: []
+      starwarsChars: [],
+      name:'',
     };
   }
 
@@ -33,6 +57,9 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <StarWarsChars
+        starwarsChars={this.state.starwarsChars}
+        />
       </div>
     );
   }
